@@ -1,0 +1,63 @@
+.App-container {
+  position: relative;
+}
+
+.App {
+  background-color: transparent;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.App-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.App-carousel {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.App-bg {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.App-logo {
+  background-color: transparent;
+  height: 30vmin;
+  pointer-events: none;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-title {
+  color: black;
+}
+
+.App-social-links {
+  display: flex;
+  justify-content: center;
+}
+
+.App-social-links > div {
+  margin: 0 5px;
+}
+
+.Ig-logo-container {
+  background-color: transparent;
+}
+
+.social-icon-logo {
+  height: 4vmin;
+}
