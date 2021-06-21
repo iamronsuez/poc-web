@@ -1,22 +1,27 @@
 import React from 'react';
-import igLogo from '../assets/ig-logo.png';
-import wsLogo from '../assets/ws-logo.png';
+
+const socialLinks = [
+  {
+    icon: require('../assets/ig-logo.png').default,
+    link: 'https://www.instagram.com/fletesorinokia/'
+  },
+  {
+    icon: require('../assets/ws-logo.png').default,
+    link: 'https://api.whatsapp.com/send?phone=56981964971&text=Hola!%20deseo%20un%20flete'
+  }
+]
 
 function SocialLinks() {
-    return (
-        <div className="App-social-links">
-                  <div>
-                    <a href="https://www.instagram.com/fletesorinokia/" rel="noreferrer" target="_blank" className="Ig-logo-container" >
-                    <img src={igLogo} className="social-icon-logo" alt="logo" />
-                    </a>
-                  </div>
-                  <div>
-                    <a href="https://api.whatsapp.com/send?phone=56981964971&text=Hola!%20deseo%20un%20flete" rel="noreferrer" target="_blank" className="Ig-logo-container" >
-                    <img src={wsLogo} className="social-icon-logo" alt="logo" />
-                    </a>
-              </div>
-            </div>
-    )
+  return (
+    <div className="App-social-links">
+      {socialLinks.map(({ icon, link }) => (
+        <div>
+          <a href={link} rel="noreferrer" target="_blank" className="logo-container">
+            <img src={icon} className="social-icon-logo" alt="logo"></img>
+          </a>
+        </div>))}
+    </div>
+  )
 }
 
 

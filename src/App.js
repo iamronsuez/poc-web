@@ -8,13 +8,13 @@ import SocialLinks from './app/SocialLinks'
 function App() {
   return (
     <div className="App-container">
-     <Carousel />
+      <Carousel />
       <div className="App">
-            <div className="App-content">
-                <Logo />
-               <SocialLinks />
-          </div>
-    </div>
+        <div className="App-content">
+          <Logo />
+          <SocialLinks />
+        </div>
+      </div>
     </div>
 
   );
