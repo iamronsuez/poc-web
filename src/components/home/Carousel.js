@@ -5,9 +5,9 @@ import './Carousel.image.css';
 
 
 const images = [
-    require('../assets/images/image-1.jpg').default,
-    require('../assets/images/image-2.jpg').default,
-    require('../assets/images/image-3.jpg').default,
+    require('../../assets/images/image-1.jpg').default,
+    require('../../assets/images/image-2.jpg').default,
+    require('../../assets/images/image-3.jpg').default,
 ]
 
 

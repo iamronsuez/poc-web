@@ -2,11 +2,11 @@ import React from 'react';
 
 const socialLinks = [
   {
-    icon: require('../assets/ig-logo.png').default,
+    icon: require('../../assets/ig-logo.png').default,
     link: 'https://www.instagram.com/fletesorinokia/'
   },
   {
-    icon: require('../assets/ws-logo.png').default,
+    icon: require('../../assets/ws-logo.png').default,
     link: 'https://api.whatsapp.com/send?phone=56981964971&text=Hola!%20deseo%20un%20flete'
   }
 ]
